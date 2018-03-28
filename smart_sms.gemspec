@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email         = ['lyfeyaj@gmail.com']
   s.description   = %q{A smart sms verification tool}
   s.summary       = %q{A smart sms verification tool used in China and integrate with yunpian.com}
-  s.homepage      = 'https://github.com/lyfeyaj/smart_sms'
+  s.homepage      = 'https://github.com/deppyu/smart_sms'
   s.license       = 'MIT'
 
   s.files         = `git ls-files`.split($/)
@@ -19,8 +19,8 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ['lib']
 
-  s.add_dependency 'activerecord', ['>= 3.0', '< 5.0']
-  s.add_dependency 'activesupport', ['>= 3.0', '< 5.0']
+  s.add_dependency 'activerecord', ['>= 3.0']
+  s.add_dependency 'activesupport', ['>= 3.0']
 
   s.add_development_dependency 'bundler', ['>= 1.0.0']
   s.add_development_dependency 'rake', ['>= 0']
